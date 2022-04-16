@@ -1,5 +1,8 @@
-/*
+/* Diferentes formas de exportar funciones
   node main.js
+
+  require es de commonjs
+  import de ecmascript modules
 */
 
 const logger1 = require('./logger_1')
