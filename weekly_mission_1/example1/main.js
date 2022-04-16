@@ -28,3 +28,29 @@ const myModule = (() => {
 })()
 
 console.log(myModule)
+
+//Creado mi propio objeto
+
+let myPet = new Object();
+myPet.name = 'Ramira';
+myPet.age = "1.9";
+
+console.log(myPet);
+
+//Creado un módulo
+
+const theModule = (() =>{
+
+  const silenceType = "Soy un valor que se usa dentro de este objeto."
+  const expuesType = "Soy un valor expuesto";
+
+  const objetoExpuesto = {
+    onePublicDate: "Hola, soy parte de un objeto dentro de un modulo",
+    secondPublicDate: "El siguiente dato llamara a una variable dentro del módulo",
+    thirdPublicDate: expuesType
+
+  }
+
+  return objetoExpuesto
+})()
+console.log(theModule);
