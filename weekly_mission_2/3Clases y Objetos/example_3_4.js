@@ -16,3 +16,6 @@ class PullRequest {
 console.log("Ejemplo 5: Atributos con valores por default");
 const myPR1 = new PullRequest("LaunchX" , "Mi primer PR", 100)
 console.log(myPR1.getInfo());
+
+const myPR2 = new PullRequest("LaunchX", "Mi segundo PR", 99);
+console.log(myPR2.getInfo());
